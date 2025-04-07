@@ -1,4 +1,4 @@
-name: Selenium de project
+name: Selenium ide project
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
       - name: Setup dotNet
-        uses: actions/setup-dotNet@v3
+        uses: actions/setup-dotnet@v3
         with:
           dotnet-version: 6.0.x
       - name: install nuget packages
